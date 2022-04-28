@@ -82,7 +82,7 @@ if __name__ == '__main__':
     tests = []
 
     if not lint_check_disabled:
-        tests.append(['test_flake8'])
+        # tests.append(['test_flake8'])
         tests.append(['test_pylint'])
 
     if tests_unspecified and not lint_check_enabled:
