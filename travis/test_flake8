@@ -25,3 +25,4 @@ for addon in folders:
                                flake8_config_dir])
 
 sys.exit(0 if status == 0 else 1)
+ 
